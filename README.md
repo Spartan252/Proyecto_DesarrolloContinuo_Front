@@ -1,5 +1,4 @@
-# Proyecto_DesarrolloContinuo_Front<div align="center">
-<div> 
+# Proyecto_DesarrolloContinuo_Front
 
 # Proyecto Final - Frontend
 **Infraestructura para el Desarrollo Continuo**
