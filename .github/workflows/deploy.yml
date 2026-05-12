@@ -3,8 +3,6 @@ name: Deploy Frontend to Cloudflare Pages
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'frontend/**'
 
 jobs:
   deploy:
@@ -18,5 +16,5 @@ jobs:
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        command: pages deploy frontend --project-name=e-stock-frontend
+        command: pages deploy . --project-name=e-stock-frontend
 
